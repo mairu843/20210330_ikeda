@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 .header-nav {
     display: flex;
     align-items: center;
@@ -31,7 +35,7 @@
 }
 .header-main-bigtext {
     position: absolute;
-    top: 0;
+    top: 10%;
     left: 18%;
     font-size: 5vw;
     font-family: 'Indie Flower', cursive;
@@ -61,6 +65,7 @@
 }
 
 .header-news {
+    width: 60%;
     margin-top: 5%;
     margin-left: 20%;
     color: #808080;
@@ -68,15 +73,17 @@
 .header-news p {
     font-family: 'Indie Flower', cursive;
     color: #c2086e;
-    margin-bottom: -1%;
+}
+.header-news h2 {
+    color: #808080;
+    font-size: 1.8vw;
 }
 .header-news-list {
-    width: 55%;
     padding-top: 1%;
     padding-bottom: 3%;
     border-top: 2px solid  #808080;
     border-bottom: 2px solid  #808080;
-    font-size: 1.3vw;
+    font-size: 1.2vw;
 }
 .header-news-item {
     padding: 2% 1% 2% 0;
@@ -84,8 +91,8 @@
 }
 .header-news-item-span {
     color: #fff;
-    padding: 0 10px;
-    margin: 0 30px;
+    padding: 0 2%;
+    margin: 0 2%;
     background: #c2086e;
     border-radius: 20px;
 }
@@ -102,11 +109,11 @@
 .main-about-title p {
     font-family: 'Indie Flower', cursive;
     color: #c2086e;
-    margin-bottom: -1%;
 }
 .main-about-title h2 {
     color: #808080;
     font-size: 1.8vw;
+    margin-bottom: 1%;
 }
 .main-about-text-img {
     display: flex;
@@ -128,14 +135,14 @@
 
 .main-service {
     margin-top: 10%;
-    margin-left: 15%;
+    margin-left: 18%;
 }
 .main-service-title p {
-    margin-bottom: -1%;
     font-family: 'Indie Flower', cursive;
     color: #c2086e;
 }
 .main-service-title h2 {
+    margin-bottom: 2%;
     color: #808080;
     font-size: 1.8vw;
 }
@@ -143,7 +150,7 @@
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 2fr 2fr;
-    width: 80%;
+    width: 78%;
     color: #fff;
 }
 .main-service-grid1 {
@@ -216,13 +223,13 @@
     margin-left: 15%;
 }
 .main-blog-title p {
-    margin-bottom: -1%;
     font-family: 'Indie Flower', cursive;
     color: #c2086e;
 }
 .main-blog-title h2 {
     color: #808080;
     font-size: 1.8vw;
+    margin-bottom: 2%;
 }
 .main-blog-cards {
     display: flex;
@@ -246,7 +253,8 @@
 }
 .main-blog-card-img p {
     position: absolute;
-    top: -7%;
+    top: 0;
+    left: 0;
     border-radius: 10px 0 0 0;
     width: 20%;
     padding: 2% 0;
@@ -275,6 +283,7 @@
     white-space: nowrap;
     text-overflow: ellipsis;
     margin-left: 10%;
+    margin-top: 10%;
     font-size: 1vw;
     list-style: none;
 }
@@ -306,13 +315,13 @@
     margin-left: 15%;
 }
 .main-company-title p {
-    margin-bottom: -1%;
     font-family: 'Indie Flower', cursive;
     color: #c2086e;
 }
 .main-company-title h2 {
     color: #808080;
     font-size: 1.8vw;
+    margin-bottom: 2%;
 }
 .main-company-list {
     margin-left: 15%;
@@ -337,8 +346,8 @@
 
 .main-link {
     margin-top: 10%;
-    width: 100%;
     display: flex;
+    width: 100%;
 }
 .main-link-recruit {
     position: relative;
