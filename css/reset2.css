@@ -258,24 +258,29 @@
     font-size: 1vw;
 }
 .main-blog-card-text {
-    margin-left: 10%;
-    width: 80%;
+    width: 90%;
     color: #808080;
     overflow-wrap: break-word;
 }
 .main-blog-card-text-title {
+    margin-left: 10%;
     color: #808080;
     font-weight: bold;
     font-size: 1.1vw;
 }
 .main-blog-card-text-date {
-    font-size: 1vw;
-    margin-bottom: 10%;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    overflow-wrap: break-word;
+    margin-bottom: 10%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-left: 10%;
+    font-size: 1vw;
+    list-style: none;
 }
-.main-blog-card-text-date span {
+.main-blog-card-text-date li {
     font-size: 1vw;
     color: #808080
 }
