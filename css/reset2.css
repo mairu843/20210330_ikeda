@@ -66,8 +66,7 @@
 
 .header-news {
     width: 60%;
-    margin-top: 5%;
-    margin-left: 20%;
+    margin: 10% auto 0;
     color: #808080;
 }
 .header-news p {
@@ -98,7 +97,7 @@
 }
 
 .main-about {
-    margin-top: 10%;
+    margin: 10% auto 0;
     background: #f3f3f3;
     height: 60%;
     padding-top: 2%;
@@ -117,25 +116,24 @@
 }
 .main-about-text-img {
     display: flex;
-    justify-content: center;
-    margin-left: 12%;
+    justify-content: space-around;
+    margin-left: 13%;
 }
 .main-about-text{
     font-size: 1.1vw;
     color: #808080;
 }
 .main-about-img {
-    margin-left: 18%;
-    width: 45%;
+    width: 46%;
+    margin-left: 10%;
 }
 .main-about-img img {
-    width: 70%;
+    width: 60%;
     height: auto;
 }
 
 .main-service {
-    margin-top: 10%;
-    margin-left: 18%;
+    margin: 10% 0 0 15%;
 }
 .main-service-title p {
     font-family: 'Indie Flower', cursive;
@@ -150,7 +148,7 @@
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 2fr 2fr;
-    width: 78%;
+    width: 79%;
     color: #fff;
 }
 .main-service-grid1 {
@@ -309,7 +307,6 @@
 
 .main-company {
     margin-top: 5%;
-    width: 100%;
 }
 .main-company-title {
     margin-left: 15%;
@@ -347,10 +344,10 @@
 .main-link {
     margin-top: 10%;
     display: flex;
-    width: 100%;
 }
 .main-link-recruit {
     position: relative;
+    width: 50%;
 }
 .main-link-recruit img {
     width: 100%;
@@ -365,6 +362,7 @@
 }
 .main-link-interview {
     position: relative;
+    width: 50%;
 }
 .main-link-interview img {
     width: 100%;
